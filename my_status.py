@@ -32,7 +32,7 @@ def quote_status():
         time.sleep(minutes_30)
 
 
-token = 'b8d88010e41c948691b0844af7dfde48fa0d6ea2f0a67e69604d8c99fffb7377764e07014eb2f55b1adad'
+token = 'token'
 vk = vk_api.VkApi(token=token).get_api()
 f = forismatic.ForismaticPy()
 
